@@ -1,0 +1,128 @@
+{
+  "generatedAt": "2026-08-02T07:59:06.675Z",
+  "engine": "Built-in deterministic HR analyzer",
+  "averageScore": 72,
+  "status": "Review",
+  "attentionAreas": [
+    "Employees",
+    "Department Directory",
+    "Attendance Control",
+    "Leave Queue",
+    "Payroll Cycle",
+    "Hiring Pipeline"
+  ],
+  "areas": [
+    {
+      "area": "Employees",
+      "score": 58,
+      "status": "Attention",
+      "findings": [
+        "9 employee records available in persistent storage.",
+        "1 high-risk and 2 medium-risk employee records detected.",
+        "3 employees show late or absent attendance signals."
+      ],
+      "recommendations": [
+        "Schedule retention check-ins for high-risk and notice-period employees.",
+        "Review attendance pattern alongside performance before payroll approval."
+      ]
+    },
+    {
+      "area": "Department Directory",
+      "score": 78,
+      "status": "Review",
+      "findings": [
+        "10 demo records checked.",
+        "3 records contain review, pending, hold, high-priority, late, or absent signals.",
+        "Primary tracking field is Department."
+      ],
+      "recommendations": [
+        "Rebalance hiring load across departments with Watch or Review health.",
+        "Confirm each open role maps to an approved budget owner."
+      ]
+    },
+    {
+      "area": "Attendance Control",
+      "score": 68,
+      "status": "Review",
+      "findings": [
+        "10 demo records checked.",
+        "4 records contain review, pending, hold, high-priority, late, or absent signals.",
+        "Primary tracking field is Employee."
+      ],
+      "recommendations": [
+        "Trigger manager review for repeated late entries.",
+        "Compare overtime hours against payroll exceptions before closing cycle."
+      ]
+    },
+    {
+      "area": "Leave Queue",
+      "score": 50,
+      "status": "Attention",
+      "findings": [
+        "10 demo records checked.",
+        "6 records contain review, pending, hold, high-priority, late, or absent signals.",
+        "Primary tracking field is Employee."
+      ],
+      "recommendations": [
+        "Prioritize pending leave requests older than two business days.",
+        "Check overlapping team leave before approval."
+      ]
+    },
+    {
+      "area": "Payroll Cycle",
+      "score": 68,
+      "status": "Review",
+      "findings": [
+        "10 demo records checked.",
+        "4 records contain review, pending, hold, high-priority, late, or absent signals.",
+        "Primary tracking field is Employee."
+      ],
+      "recommendations": [
+        "Resolve Hold and Review records before payout freeze.",
+        "Run maker-checker approval for all deduction anomalies."
+      ]
+    },
+    {
+      "area": "Hiring Pipeline",
+      "score": 68,
+      "status": "Review",
+      "findings": [
+        "10 demo records checked.",
+        "4 records contain review, pending, hold, high-priority, late, or absent signals.",
+        "Primary tracking field is Role."
+      ],
+      "recommendations": [
+        "Move high-priority roles out of Sourcing within 48 hours.",
+        "Use pipeline SLA alerts for Technical Interview and Offer stages."
+      ]
+    },
+    {
+      "area": "Report Library",
+      "score": 88,
+      "status": "Healthy",
+      "findings": [
+        "10 demo records checked.",
+        "2 records contain review, pending, hold, high-priority, late, or absent signals.",
+        "Primary tracking field is Report."
+      ],
+      "recommendations": [
+        "Schedule recurring leadership reports and archive stale exports.",
+        "Review reports marked Review before monthly close."
+      ]
+    },
+    {
+      "area": "System Settings",
+      "score": 98,
+      "status": "Healthy",
+      "findings": [
+        "10 demo records checked.",
+        "1 records contain review, pending, hold, high-priority, late, or absent signals.",
+        "Primary tracking field is Area."
+      ],
+      "recommendations": [
+        "Close configuration items in Review before production deployment.",
+        "Keep RBAC, MFA, and audit log settings enabled."
+      ]
+    }
+  ]
+}
